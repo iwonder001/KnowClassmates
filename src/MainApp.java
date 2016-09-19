@@ -20,24 +20,24 @@ public class MainApp {
 				+ "(enter 1 for dream job or 2 for travel):  " ); 
 		int choice =input.nextInt();
 		
+		//make user enter in an number so I can use a switch to give student info
 		switch (choice) {
 		case 1:
 			System.out.println(roster [x-1] [0] + " dream job is " + roster [x-1] [1]);
 			break;
-//		case 2:
-//			System.out.println("Why are you naked you FREAK! You are denied entry.");
-//			break;
-//		case "snowsuit":
-//			System.out.println("Really? GO HOME!!");
-//			break;
-//		}
-		
+		case 2:
+			System.out.println(roster [x-1] [0] + " would love to travel to " + roster [x-1] [2]);
+			break;
+	}//switch end
+		System.out.println("Would you like to learn about other students? (y/n): ");
+		String cont = input.nextLine();
+	
 		
 		
 		
 	}//psvm
 }//class
-}
+
 		//String [] roster= new String[2]; //may need to adjust number
 		//String[][] roster = new String [5][3]; //create a multi array statement.  type[] [] arrayName=new type[rowCount][columnCount];
 		
