@@ -38,6 +38,7 @@ public class MainApp {
 			}// switch end
 			System.out.println("Would you like to learn about other students? (y/n): ");
 			userCont = input.nextLine();
+			userCont = input.nextLine();
 
 			// If the user says yes cont = true
 			// Else cont = false
